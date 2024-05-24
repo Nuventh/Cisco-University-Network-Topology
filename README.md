@@ -14,10 +14,14 @@ This repository contains the design and configuration files for a university net
 - **VLANs**: Implemented for each department and faculty
 - **Routing**: RIPv2 for internal routing, static routing for external server
 - **DHCP**: Router-based DHCP for dynamic IP addressing
+- **Port Security**: Implemented on switches to control access and prevent unauthorized connections
+- **SSH**: Configured on network devices for secure remote access
+- **WLAN**: Wireless networks for device connectivity
+- **Access Points**: Configured with SSIDs and security settings
+- **Host Configurations**: Devices configured with appropriate IP settings
 
 ## Files
-- **PacketTracerFiles/UniversityNetwork.pkt**: The Cisco Packet Tracer file of the network topology.
-- **Configurations/**: Text files containing CLI commands for configuring switches and routers.
+- **main.pkt**: The Cisco Packet Tracer file of the network topology.
 
 ## Usage
 1. Open `main.pkt` in Cisco Packet Tracer.
